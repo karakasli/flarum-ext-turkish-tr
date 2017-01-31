@@ -145,7 +145,7 @@ core:
       rename_discussions_label: Konuyu yeniden isimlendir
       reply_to_discussions_label: Konuya cevap yaz
       sign_up_label: Üye ol
-      start_discussions_label: Konu başlat
+      start_discussions_label: Konu Başlat
       view_discussions_label: Konuyu Görüntüle
       view_post_ips_label: Konuyu görüntüleyenleri IP listesi
 
@@ -234,8 +234,8 @@ core:
       empty_text: Burada açılmış hiç konu yok.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Okunudu olarak işaretle
-      replied_text: "{username} cevapladı {ago}"
-      started_text: "{username} başlattı {ago}"
+      replied_text: "{username} tarafından cevaplandı {ago}"
+      started_text: "{username} tarafından başlatıldı {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -280,7 +280,7 @@ core:
       newest_button: En Yeni
       oldest_button: En Eski
       relevance_button: Benzer
-      top_button: Yukarı
+      top_button: Popüler
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -316,8 +316,8 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Şimdi
-      original_post_link: Orjinal Yazı
+      now_link: Son Yazı
+      original_post_link: İlk Yazı
       unread_text: "{count} okunmamış"
       viewing_text: "{index}/{count}|{index}/{count}"
 
@@ -343,7 +343,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Benim başlattığım bir konuya herhangi biri yeni bir isim verebilir
+      notify_discussion_renamed_label: Benim başlattığım bir konuya herhangi biri yeni bir isim verdiğinde
       privacy_disclose_online_label: Diğerlerinin online olduğumu görmesine izin ver
       privacy_heading: Gizlilik
       title: => core.ref.settings
@@ -364,7 +364,7 @@ core:
       avatar_remove_button: Sil
       avatar_upload_button: Yükle
       avatar_upload_tooltip: Yeni Avatar Yükle
-      bio_placeholder: Kendiniz hakkında bir şeyler yazın
+      bio_placeholder: Kendiniz hakkında bir şeyler yazın...
       discussions_link: => core.ref.discussions
       in_discussion_text: "{discussion}'a göz atıyor"
       joined_date_text: "{ago} katıldı"
@@ -496,7 +496,7 @@ core:
     all_discussions: Tüm Konular
     change_email: E-Posta Değiştir
     change_password: Şifre Değiştir
-    confirm_password: Şifre Onayla
+    confirm_password: Şifreniz
     confirmation_email_sent: "{email} adresinize bir onay e-postası gönderdik. Yakın zamanda ulaşmazsa Spam klasörünü kontrol ediniz."
     delete: Sil
     delete_forever: Tamamen Sil
@@ -511,9 +511,9 @@ core:
     notifications: Bildirim
     okay: Tamam                                     # Referenced by flarum-tags.yml
     password: Şifre
-    reply: Cevap                                 # Referenced by flarum-mentions.yml
+    reply: Cevapla                                 # Referenced by flarum-mentions.yml
     reset_your_password: Şifreni Sıfırla
-    restore: Yenile
+    restore: Geri Al
     save_changes: Değişiklikleri Kaydet                 # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Ayarlar
     sign_up: Üye Ol
