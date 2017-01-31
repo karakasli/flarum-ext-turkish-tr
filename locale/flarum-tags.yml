@@ -46,49 +46,49 @@ flarum-tags:
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
+      about_tags_text: "Etiketler konuları kategorize etmek için kullanılır. Birincil keyler klasik categoriler gibi düşünülebilir ve iki seviyeli olarak kullanılabilir. İkincik etiletlerin hiyerarşik bir devamı yoktur alt kateforiler olarak kullanılır."
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Primary Tags
-      secondary_heading: Secondary Tags
-      settings_button: Settings
+      primary_heading: Birincil Etiketler
+      secondary_heading: İkincil Etiketler
+      settings_button: Ayarlar
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      edit_title: "Edit Tags for {title}"
+      choose_primary_placeholder: "Birincil Etiket Seç|{count} Birincil Etiket Seç"
+      choose_secondary_placeholder: "Bir etiket daha seç|{count} etiket daha seç"
+      edit_title: "{title} için etiketleri düzenle"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      title: Konunuz için etiket seçin
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: Etiketleri Seç
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Edit Tags
+      edit_tags_button: Etiketleri Düzenle
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: More...
+      more_link: Daha Fazla...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Untagged
+      untagged_link: Etiketlenmemiş
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} added the {tagsAdded}."
-      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
-      removed_tags_text: "{username} removed the {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tags"
+      added_tags_text: "{username} şunları ekledi {tagsAdded}."
+      added_and_removed_tags_text: "{username} şunlaru ekledi {tagsAdded} ve şunları sildi {tagsRemoved}."
+      removed_tags_text: "{username} şunları sildi {tagsRemoved}."
+      tags_text: "{tags} etiket|{tags} etiketler"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Deleted
+    deleted_tag_text: Silindi
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Create Tag
-    name: Name
-    tags: Tags
+    create_tag: Etiket Oluştur
+    name: İsim
+    tags: Etiketler
